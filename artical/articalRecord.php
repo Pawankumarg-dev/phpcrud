@@ -36,7 +36,7 @@ if (isset($_GET['search'])) {
 
                 <div class="col-lg-2">
                     <select name="category" class="form-control">
-                        <option value="">Search by Category </option>
+                        <option value="">Search by  </option>
                         <?php
                         $catSql = "SELECT * FROM categories WHERE del_action='N'";
                         $catMysqlSet = mysqli_query($conn, $catSql);
