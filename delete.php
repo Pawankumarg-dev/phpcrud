@@ -8,7 +8,7 @@ try{
     if(mysqli_query($conn,$sql)){
         //echo "data delete successfully";
         header("location:record.php");
-        $_SESSION['message']="Record is delete successfully";
+        $_SESSION['message']="dsdfsdg Record is delete successfully";
         $_SESSION['status']="danger";
     }else{
         throw new mysqli_sql_exception();
