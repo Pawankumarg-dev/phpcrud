@@ -1,0 +1,11 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#071A2B"/>
+  <circle cx="300" cy="300" r="180" fill="#0F4C81"/>
+  <circle cx="850" cy="250" r="150" fill="#1E7ACF" opacity="0.8"/>
+  <rect x="240" y="480" width="720" height="220" rx="30" fill="#122A45"/>
+  <path d="M300 560C360 520 420 540 480 520C540 500 600 540 660 520C720 500 780 560 840 520" stroke="#70C9FF" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="500" cy="270" r="14" fill="#C9F1FF"/>
+  <circle cx="700" cy="330" r="10" fill="#C9F1FF"/>
+  <circle cx="620" cy="180" r="8" fill="#C9F1FF"/>
+  <text x="50%" y="86%" text-anchor="middle" fill="#B0D8FF" font-family="Arial, sans-serif" font-size="42">VentureBeast Visual</text>
+</svg>
