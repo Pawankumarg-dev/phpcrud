@@ -44,4 +44,13 @@ class HomeController extends Controller
 
     }
 
+    /* CONTACT PAGE */
+
+    public function contact()
+    {
+
+        return view('frontend.pages.contact');
+
+    }
+
 }

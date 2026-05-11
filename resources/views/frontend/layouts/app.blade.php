@@ -8,6 +8,22 @@
           content="width=device-width, initial-scale=1">
 
     <title>@yield('title')</title>
+    <meta name="description" content="The Venture Beast — growth-focused digital agency delivering web development, SEO, and design that converts.">
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="The Venture Beast">
+    <meta property="og:title" content="@yield('title') - The Venture Beast">
+    <meta property="og:description" content="The Venture Beast — growth-focused digital agency delivering web development, SEO, and design that converts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('images/unsplash-home.jpg') }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title') - The Venture Beast">
+    <meta name="twitter:description" content="The Venture Beast — growth-focused digital agency delivering web development, SEO, and design that converts.">
+    <meta name="twitter:image" content="{{ asset('images/unsplash-home.jpg') }}">
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"

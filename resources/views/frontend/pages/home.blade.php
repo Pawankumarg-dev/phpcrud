@@ -60,9 +60,10 @@
                 <div class="hero-visual d-flex justify-content-center"
                      data-aos="fade-left">
 
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
-                         alt="Brand success"
-                         class="img-fluid rounded-4 hero-hero-image">
+                    <img src="{{ asset('images/unsplash-home.jpg') }}"
+                        alt="Brand success"
+                        class="img-fluid rounded-4 hero-hero-image"
+                        loading="lazy">
 
                 </div>
 
@@ -194,7 +195,7 @@
                     <h2 class="counter"
                         data-target="250">
 
-                        0 
+                        0
 
                     </h2>
 

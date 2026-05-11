@@ -27,9 +27,9 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/services','services')
         ->name('services');
 
-    /* PORTFOLIO */
+    /* CONTACT */
 
-    Route::get('/portfolio','portfolio')
-        ->name('portfolio');
+    Route::get('/contact','contact')
+        ->name('contact');
 
 });
