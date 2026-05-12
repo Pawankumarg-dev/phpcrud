@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container py-5">
-    <div class="entry-content clear mt-5 pt-5" itemprop="text">
+    <div class="entry-content clear pt-5" itemprop="text">
     <div class="elementor elementor-20">
         <div class="elementor-widget-container text-center">
             <h2 class="elementor-heading-title elementor-size-default">Book a Free Discovery Call</h2>

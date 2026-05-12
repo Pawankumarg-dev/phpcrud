@@ -60,15 +60,6 @@
                         Contact
                     </a>
                 </li>
-
-                <!-- BUTTON -->
-                <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                    <a href="{{ route('contact') }}"
-                       class="nav-btn">
-                        Book Call
-                    </a>
-                </li>
-
             </ul>
 
         </div>

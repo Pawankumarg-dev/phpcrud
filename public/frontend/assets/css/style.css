@@ -362,7 +362,7 @@ body{
 
     transform:translateY(-15px);
 
-    background:rgba(255,255,255,0.08);
+    background:#0821b1cb;
 
 }
 
@@ -401,6 +401,21 @@ body{
 .counter-box h2{
     font-size:75px;
     font-weight:800;
+}
+
+.counter-box .counter-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    color:#fff;
+    margin-top:8px;
+    margin-bottom:10px;
+}
+
+.counter-box .counter-icon i{
+    font-size:36px;
+    opacity:0.95;
 }
 
 .counter::after {

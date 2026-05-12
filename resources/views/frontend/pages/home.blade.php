@@ -14,17 +14,12 @@
 
     <div class="container">
 
-        <div class="row align-items-center min-vh-100">
+        <div class="row align-items-center ">
 
-            <div class="col-lg-6 pt-5">
+            <div class="col-lg-6 ">
 
                 <div class="hero-content"
                      data-aos="fade-right">
-
-                    <span class="hero-tag">
-                        GROWTH PARTNERS
-                    </span>
-
                     <h2 class="hero-title">
                         <em>The</em> Beast <strong>Behind</strong> Your <strong>Brand’s</strong> Success
                     </h2>
@@ -77,8 +72,7 @@
 
 <!-- SERVICES -->
 
-<section class="services-section"
-         id="services">
+<section class="services-section" id="services">
 
     <div class="container">
 
@@ -193,11 +187,15 @@
                 <div class="counter-box">
 
                     <h2 class="counter"
-                        data-target="250">
+                        data-target="50">
 
                         0
 
                     </h2>
+
+                    <div class="counter-icon">
+                        <i class="bi bi-briefcase-fill"></i>
+                    </div>
 
                     <p>Projects</p>
 
@@ -210,11 +208,15 @@
                 <div class="counter-box">
 
                     <h2 class="counter"
-                        data-target="120">
+                        data-target="10">
 
                         0
 
                     </h2>
+
+                    <div class="counter-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
 
                     <p>Clients</p>
 
@@ -227,11 +229,15 @@
                 <div class="counter-box">
 
                     <h2 class="counter"
-                        data-target="50">
+                        data-target="5">
 
                         0
 
                     </h2>
+
+                    <div class="counter-icon">
+                        <i class="bi bi-person-badge"></i>
+                    </div>
 
                     <p>Experts</p>
 
@@ -244,11 +250,15 @@
                 <div class="counter-box">
 
                     <h2 class="counter"
-                        data-target="15">
+                        data-target="3">
 
                         0
 
                     </h2>
+
+                    <div class="counter-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
 
                     <p>Years</p>
 

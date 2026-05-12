@@ -22,6 +22,16 @@
 .team-card p{ margin-bottom:0; color:#374151; }
 .team-card img{ width:96px; height:96px; object-fit:cover; border-radius:50%; border:2px solid rgba(0,0,0,0.05); }
 
+/* Avatar hover scale (enlarge image on mouse hover) */
+.team-card .avatar{ width:96px; height:96px; overflow:hidden; border-radius:50%; flex:0 0 auto; }
+.team-card .avatar img{ display:block; width:100%; height:100%; object-fit:cover; transition:transform .28s cubic-bezier(.2,.9,.2,1); will-change:transform; }
+.team-card:hover .avatar img{ transform:scale(2.2); }
+
+/* Slightly increase hover effect on larger screens */
+@media(min-width:992px){
+    .team-card:hover .avatar img{ transform:scale(1.22); }
+}
+
 /* Uniform team card sizing and polish */
 .team-card{ min-height:200px; transition:transform .18s ease, box-shadow .18s ease; }
 .team-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(2,6,23,0.12); }
@@ -127,7 +137,7 @@
                     'name' => 'Pawan Kumar Gupta',
                     'role' => 'Full Stack Developer',
                     'bio'  => 'Full-stack developer experienced in PHP, Python, Laravel, Django and MySQL. Builds reliable backend systems, RESTful APIs, and clean frontend experiences. Passionate about clean code, testing, and scalable architecture.',
-                    'image'=> 'WhatsApp-Image-2025-06-23-at-22.52.00.jpeg'
+                    'image'=> 'pawan_kumar.jpeg'
                 ],
                 [
                     'name' => 'Ankit Kushwaha',

@@ -6,7 +6,7 @@
 
 <div class="services-wrapper py-5">
     <div class="container">
-        <div class="row mt-5 pt-5">
+        <div class="row  pt-5">
 
             <div class="col text-center" style="color:#111">
                 <h2 class="display-4 fw-bold">Our Digital Marketing Services</h2>
